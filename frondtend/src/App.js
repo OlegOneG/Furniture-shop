@@ -1,11 +1,8 @@
-import './App.css';
+import './App.scss';
+import './common/styles/reset.scss';
 
 function App() {
-  return (
-    <div className="app">
-      <h1>Furniture Shop</h1>
-    </div>
-  );
+  return <h1>Furniture Shop</h1>;
 }
 
 export default App;
